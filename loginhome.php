@@ -9,14 +9,13 @@
 <body>
     
     <!-- header start-->
-    <?php include "login-header.php" ?>
+    <?php include "login-headerarea.php" ?>
     <!-- header end-->
     
     <?php include "displaypost.php" ?>
     
     <!-- footer php -->
-    <?php include "footer-one.php" ?>
-    <?php include "footer.php" ?>
+    <?php include "footerarea.php" ?>
     <!-- footer php -->
 
     

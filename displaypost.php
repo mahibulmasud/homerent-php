@@ -22,11 +22,16 @@
         }
         .content-main{
             display:grid;
-            grid-template-columns:1fr 1fr 1fr;
-            grid-gap:15px 20px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap:20px 20px;
+            color:black;
         }
         .content-main>div{
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0px 0px 8px -5px grey;
+            transition: box-shadow 1s;
+        }
+        .content-main>div:hover{
+            box-shadow:0px 0px 28px 0px grey;
         }
         .content-main img{
             width:100%;
@@ -34,14 +39,12 @@
         .header h1{
             text-align:center;
             margin-bottom:30px;
+            color:black;
         }
         .card-main{
             position: relative;
             padding:10px;
-            padding-top:0px;
             border-radius:5px;
-            transition:padding-top;
-            transition-duration:0.8s;
         }
         .card-main h2{
             position: absolute;
@@ -80,16 +83,15 @@
            
         }
         .card-main:hover{
-            padding-top:5px;
-            background:#ff00003d;
-
+            box-shadow:
         }
+        
         .card-main td{
             padding: 0px 2px;
         }
         .card-main .img{
             width: 100%;
-            height:52%;
+            height: 200px;
         }
     </style>
     <div class="up-space"></div>

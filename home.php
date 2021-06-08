@@ -16,7 +16,7 @@
         .home-banner-img img{
             width:100%;
             height:100%;
-            backdrop-filter: grayscale(1);
+            filter: brightness(0.6);
         }
         .banner-text h1{
             color:white;
@@ -32,7 +32,7 @@
     </style>
 </head>
 <body>
-    <?php include "header.php" ?>
+    <?php include "headerarea.php" ?>
 
     <div class="home-banner-img" >
         <img src="images/banner.jpg" alt="">
@@ -44,7 +44,6 @@
     <?php include "displaypost.php" ?>
     </div>
     
-    <?php include "footer-one.php" ?>
-    <?php include "footer.php" ?>
+    <?php include "footerarea.php" ?>
 </body>
 </html>

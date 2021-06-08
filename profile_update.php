@@ -53,7 +53,7 @@
         </div>
         <!-- form end -->
     <!-- footer start -->
-    <?php include "footer.php" ?>
+    <?php include "footerarea.php" ?>
     <!-- footer end -->
 </body>
 </html>
